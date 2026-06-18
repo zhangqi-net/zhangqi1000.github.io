@@ -1,6 +1,6 @@
 # hub.zhangqi.net
 
-张琦的个人站点,部署在 GitHub Pages。
+老张的个人站点,部署在 GitHub Pages。
 
 ## 技术栈
 
