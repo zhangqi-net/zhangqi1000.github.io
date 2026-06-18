@@ -1,0 +1,21 @@
+# Hugo 产物(部署时本地构建,不需要提交)
+public/
+resources/
+.hugo_build.lock
+
+# Hugo 产物
+*.html~
+*.bak
+
+# 主题:这里用的是 vendor 模式(直接提交源码),而不是 submodule
+# 主题源码在 themes/PaperMod/ 下,如果以后改用 submodule 模式,加回:
+# themes/PaperMod/
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,93 @@
+# ==========================================
+# Hugo site config for hub.zhangqi.net
+# 2026-06-18 由 hermes 从 Hexo 迁移至 Hugo + PaperMod
+# ==========================================
+
+baseURL = "http://hub.zhangqi.net/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "张琦的 Hub"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+enableGitInfo = true
+enableInlineAnchors = true
+
+[params]
+  env = "production"
+  description = "张琦的个人站点 / Zhang Qi's Hub"
+  keywords = ["张琦", "Zhang Qi", "hub.zhangqi.net", "个人博客"]
+  author = "Zhang Qi"
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"   # 跟随系统深色/浅色
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  disableScrollToTop = false
+  mainSections = ["posts"]
+  assets.favicon = "/favicon.svg"
+  label.icon = "🛸"
+
+  # Social(空 map 即可,主题要求走 site.Params.social 而非 site.Social)
+  [params.social]
+    twitter = ""
+    facebook_admin = ""
+
+  # 菜单
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "归档"
+    url = "/archives/"
+    weight = 20
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 30
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 40
+  [[menu.main]]
+    name = "搜索"
+    url = "/search/"
+    weight = 50
+
+# 首页展示全部文章
+[home]
+  [home.pagination]
+    paginate = 10
+    enable = true
+
+# 启用搜索(JSON 输出)和 RSS
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+
+# RSS
+[outputFormats.RSS]
+  mediatype = "application/rss+xml"
+  baseName = "feed"
+  isPlainText = true
+  notAlternative = true
+
+# sitemap / 未来扩展
+[services]
+  [services.disqus]
+    shortname = ""
+  [services.googleAnalytics]
+    id = ""
+
+[build]
+  writeStats = false
+  noJSConfigInAssets = false
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
