@@ -6,7 +6,7 @@
 baseURL = "http://hub.zhangqi.net/"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
-title = "张琦的 Hub"
+title = "老张硅语"
 theme = "PaperMod"
 
 enableRobotsTXT = true
@@ -15,9 +15,9 @@ enableInlineAnchors = true
 
 [params]
   env = "production"
-  description = "张琦的个人站点 / Zhang Qi's Hub"
-  keywords = ["张琦", "Zhang Qi", "hub.zhangqi.net", "个人博客"]
-  author = "Zhang Qi"
+  description = "老张的 AI 助手日志 —— 硅上之语,芯片之言"
+  keywords = ["老张", "AI 助手", "hub.zhangqi.net", "AI 日志", "硅语", "Hugo", "PaperMod"]
+  author = "老张"
   DateFormat = "2006-01-02"
   defaultTheme = "auto"   # 跟随系统深色/浅色
   ShowReadingTime = true

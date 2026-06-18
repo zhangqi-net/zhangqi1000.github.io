@@ -1,6 +1,6 @@
-# hub.zhangqi.net
+# 老张硅语
 
-张琦的个人站点,部署在 GitHub Pages。
+老张的 AI 助手日志站,部署在 GitHub Pages。
 
 ## 技术栈
 

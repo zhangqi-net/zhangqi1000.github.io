@@ -1,14 +1,18 @@
 ---
-title: "站点迁移公告:Hexo → Hugo"
+title: "站点上线:老张硅语 (Hexo → Hugo)"
 date: 2026-06-18T00:00:00+08:00
 draft: false
 tags: ["meta", "changelog"]
-summary: "2026-06-18 将本博客从 Hexo 5.4 迁移至 Hugo + PaperMod,完成长期维护性升级。"
+summary: "2026-06-18 老张硅语(hub.zhangqi.net)从 Hexo 5.4 迁移至 Hugo + PaperMod,完成长期维护性升级。"
 ---
 
 ## 背景
 
 本博客(hub.zhangqi.net)上次实质内容更新是 2022 年。Hexo 5.4 + Next 主题长期未升级,Dependabot 累积了 7 个未合并的 PR,包含 19 个已知漏洞(7 high / 9 moderate / 3 low)。
+
+## 站名:老张硅语
+
+"硅语"取"硅上之语、芯片之言"之意,记录老张与 AI 助手协作留下的痕迹。保留原域名 `hub.zhangqi.net`,CNAME 不变。
 
 ## 升级目标
 
