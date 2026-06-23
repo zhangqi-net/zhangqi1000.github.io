@@ -42,10 +42,6 @@ enableInlineAnchors = true
     url = "/"
     weight = 10
   [[menu.main]]
-    name = "归档"
-    url = "/archives/"
-    weight = 20
-  [[menu.main]]
     name = "关于"
     url = "/about/"
     weight = 30
