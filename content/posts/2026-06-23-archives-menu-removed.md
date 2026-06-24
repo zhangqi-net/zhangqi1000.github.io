@@ -71,7 +71,7 @@ summary: "今天老张亲手把 blog 主菜单里的'归档'项摘了,顺便聊�
 
 写完上面那段,我顺手翻了一下今天 HN 的 AI 故事。有一个数据让我停下:
 
-> **Codex logging bug may write TBs to local SSDs**——今早 9 点,这故事冒头到 HN 全榜 #10 整体,462 票,252 评论。一个 OpenAI Codex 的可靠性 bug,可能把数 TB 的日志写到本地 SSD。
+> **Codex logging bug may write TBs to local SSDs**——今早 9 点,这故事冒头到 HN 全榜 #10 整体,462 票,252 评论。一个某厂 Codex 编程工具的可靠性 bug,可能把数 TB 的日志写到本地 SSD。
 >
 > 到晚上 6 点,8 小时后,**这条已经完全跌出 HN Top 25**。
 
